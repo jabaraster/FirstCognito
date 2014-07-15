@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		265FC82B1974E3AB00FBAEEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265FC82A1974E3AB00FBAEEA /* Foundation.framework */; };
+		265FC82D1974E3AB00FBAEEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265FC82C1974E3AB00FBAEEA /* CoreGraphics.framework */; };
+		265FC82F1974E3AB00FBAEEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265FC82E1974E3AB00FBAEEA /* UIKit.framework */; };
+		265FC8351974E3AB00FBAEEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 265FC8331974E3AB00FBAEEA /* InfoPlist.strings */; };
+		265FC8371974E3AB00FBAEEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FC8361974E3AB00FBAEEA /* main.m */; };
+		265FC83B1974E3AB00FBAEEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FC83A1974E3AB00FBAEEA /* AppDelegate.m */; };
+		265FC83E1974E3AB00FBAEEA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265FC83C1974E3AB00FBAEEA /* Main_iPhone.storyboard */; };
+		265FC8411974E3AB00FBAEEA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265FC83F1974E3AB00FBAEEA /* Main_iPad.storyboard */; };
+		265FC8441974E3AB00FBAEEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FC8431974E3AB00FBAEEA /* ViewController.m */; };
+		265FC8461974E3AB00FBAEEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265FC8451974E3AB00FBAEEA /* Images.xcassets */; };
+		265FC84D1974E3AB00FBAEEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265FC84C1974E3AB00FBAEEA /* XCTest.framework */; };
+		265FC84E1974E3AC00FBAEEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265FC82A1974E3AB00FBAEEA /* Foundation.framework */; };
+		265FC84F1974E3AC00FBAEEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265FC82E1974E3AB00FBAEEA /* UIKit.framework */; };
+		265FC8571974E3AC00FBAEEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 265FC8551974E3AC00FBAEEA /* InfoPlist.strings */; };
+		265FC8591974E3AC00FBAEEA /* FirstCognitoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FC8581974E3AC00FBAEEA /* FirstCognitoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		265FC8501974E3AC00FBAEEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 265FC81F1974E3AB00FBAEEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 265FC8261974E3AB00FBAEEA;
+			remoteInfo = FirstCognito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		265FC8271974E3AB00FBAEEA /* FirstCognito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstCognito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		265FC82A1974E3AB00FBAEEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		265FC82C1974E3AB00FBAEEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		265FC82E1974E3AB00FBAEEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		265FC8321974E3AB00FBAEEA /* FirstCognito-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstCognito-Info.plist"; sourceTree = "<group>"; };
+		265FC8341974E3AB00FBAEEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		265FC8361974E3AB00FBAEEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		265FC8381974E3AB00FBAEEA /* FirstCognito-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstCognito-Prefix.pch"; sourceTree = "<group>"; };
+		265FC8391974E3AB00FBAEEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		265FC83A1974E3AB00FBAEEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		265FC83D1974E3AB00FBAEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		265FC8401974E3AB00FBAEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		265FC8421974E3AB00FBAEEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		265FC8431974E3AB00FBAEEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		265FC8451974E3AB00FBAEEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		265FC84B1974E3AB00FBAEEA /* FirstCognitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstCognitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		265FC84C1974E3AB00FBAEEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		265FC8541974E3AC00FBAEEA /* FirstCognitoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstCognitoTests-Info.plist"; sourceTree = "<group>"; };
+		265FC8561974E3AC00FBAEEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		265FC8581974E3AC00FBAEEA /* FirstCognitoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstCognitoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		265FC8241974E3AB00FBAEEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265FC82D1974E3AB00FBAEEA /* CoreGraphics.framework in Frameworks */,
+				265FC82F1974E3AB00FBAEEA /* UIKit.framework in Frameworks */,
+				265FC82B1974E3AB00FBAEEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265FC8481974E3AB00FBAEEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265FC84D1974E3AB00FBAEEA /* XCTest.framework in Frameworks */,
+				265FC84F1974E3AC00FBAEEA /* UIKit.framework in Frameworks */,
+				265FC84E1974E3AC00FBAEEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		265FC81E1974E3AB00FBAEEA = {
+			isa = PBXGroup;
+			children = (
+				265FC8301974E3AB00FBAEEA /* FirstCognito */,
+				265FC8521974E3AC00FBAEEA /* FirstCognitoTests */,
+				265FC8291974E3AB00FBAEEA /* Frameworks */,
+				265FC8281974E3AB00FBAEEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		265FC8281974E3AB00FBAEEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				265FC8271974E3AB00FBAEEA /* FirstCognito.app */,
+				265FC84B1974E3AB00FBAEEA /* FirstCognitoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		265FC8291974E3AB00FBAEEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				265FC82A1974E3AB00FBAEEA /* Foundation.framework */,
+				265FC82C1974E3AB00FBAEEA /* CoreGraphics.framework */,
+				265FC82E1974E3AB00FBAEEA /* UIKit.framework */,
+				265FC84C1974E3AB00FBAEEA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		265FC8301974E3AB00FBAEEA /* FirstCognito */ = {
+			isa = PBXGroup;
+			children = (
+				265FC8391974E3AB00FBAEEA /* AppDelegate.h */,
+				265FC83A1974E3AB00FBAEEA /* AppDelegate.m */,
+				265FC83C1974E3AB00FBAEEA /* Main_iPhone.storyboard */,
+				265FC83F1974E3AB00FBAEEA /* Main_iPad.storyboard */,
+				265FC8421974E3AB00FBAEEA /* ViewController.h */,
+				265FC8431974E3AB00FBAEEA /* ViewController.m */,
+				265FC8451974E3AB00FBAEEA /* Images.xcassets */,
+				265FC8311974E3AB00FBAEEA /* Supporting Files */,
+			);
+			path = FirstCognito;
+			sourceTree = "<group>";
+		};
+		265FC8311974E3AB00FBAEEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				265FC8321974E3AB00FBAEEA /* FirstCognito-Info.plist */,
+				265FC8331974E3AB00FBAEEA /* InfoPlist.strings */,
+				265FC8361974E3AB00FBAEEA /* main.m */,
+				265FC8381974E3AB00FBAEEA /* FirstCognito-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		265FC8521974E3AC00FBAEEA /* FirstCognitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				265FC8581974E3AC00FBAEEA /* FirstCognitoTests.m */,
+				265FC8531974E3AC00FBAEEA /* Supporting Files */,
+			);
+			path = FirstCognitoTests;
+			sourceTree = "<group>";
+		};
+		265FC8531974E3AC00FBAEEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				265FC8541974E3AC00FBAEEA /* FirstCognitoTests-Info.plist */,
+				265FC8551974E3AC00FBAEEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		265FC8261974E3AB00FBAEEA /* FirstCognito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265FC85C1974E3AC00FBAEEA /* Build configuration list for PBXNativeTarget "FirstCognito" */;
+			buildPhases = (
+				265FC8231974E3AB00FBAEEA /* Sources */,
+				265FC8241974E3AB00FBAEEA /* Frameworks */,
+				265FC8251974E3AB00FBAEEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstCognito;
+			productName = FirstCognito;
+			productReference = 265FC8271974E3AB00FBAEEA /* FirstCognito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		265FC84A1974E3AB00FBAEEA /* FirstCognitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265FC85F1974E3AC00FBAEEA /* Build configuration list for PBXNativeTarget "FirstCognitoTests" */;
+			buildPhases = (
+				265FC8471974E3AB00FBAEEA /* Sources */,
+				265FC8481974E3AB00FBAEEA /* Frameworks */,
+				265FC8491974E3AB00FBAEEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				265FC8511974E3AC00FBAEEA /* PBXTargetDependency */,
+			);
+			name = FirstCognitoTests;
+			productName = FirstCognitoTests;
+			productReference = 265FC84B1974E3AB00FBAEEA /* FirstCognitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		265FC81F1974E3AB00FBAEEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Jabaraster;
+				TargetAttributes = {
+					265FC84A1974E3AB00FBAEEA = {
+						TestTargetID = 265FC8261974E3AB00FBAEEA;
+					};
+				};
+			};
+			buildConfigurationList = 265FC8221974E3AB00FBAEEA /* Build configuration list for PBXProject "FirstCognito" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 265FC81E1974E3AB00FBAEEA;
+			productRefGroup = 265FC8281974E3AB00FBAEEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				265FC8261974E3AB00FBAEEA /* FirstCognito */,
+				265FC84A1974E3AB00FBAEEA /* FirstCognitoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		265FC8251974E3AB00FBAEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265FC8411974E3AB00FBAEEA /* Main_iPad.storyboard in Resources */,
+				265FC8461974E3AB00FBAEEA /* Images.xcassets in Resources */,
+				265FC83E1974E3AB00FBAEEA /* Main_iPhone.storyboard in Resources */,
+				265FC8351974E3AB00FBAEEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265FC8491974E3AB00FBAEEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265FC8571974E3AC00FBAEEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		265FC8231974E3AB00FBAEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265FC8441974E3AB00FBAEEA /* ViewController.m in Sources */,
+				265FC83B1974E3AB00FBAEEA /* AppDelegate.m in Sources */,
+				265FC8371974E3AB00FBAEEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		265FC8471974E3AB00FBAEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265FC8591974E3AC00FBAEEA /* FirstCognitoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		265FC8511974E3AC00FBAEEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 265FC8261974E3AB00FBAEEA /* FirstCognito */;
+			targetProxy = 265FC8501974E3AC00FBAEEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		265FC8331974E3AB00FBAEEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265FC8341974E3AB00FBAEEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		265FC83C1974E3AB00FBAEEA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265FC83D1974E3AB00FBAEEA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		265FC83F1974E3AB00FBAEEA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265FC8401974E3AB00FBAEEA /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		265FC8551974E3AC00FBAEEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265FC8561974E3AC00FBAEEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		265FC85A1974E3AC00FBAEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		265FC85B1974E3AC00FBAEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		265FC85D1974E3AC00FBAEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstCognito/FirstCognito-Prefix.pch";
+				INFOPLIST_FILE = "FirstCognito/FirstCognito-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		265FC85E1974E3AC00FBAEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstCognito/FirstCognito-Prefix.pch";
+				INFOPLIST_FILE = "FirstCognito/FirstCognito-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		265FC8601974E3AC00FBAEEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FirstCognito.app/FirstCognito";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstCognito/FirstCognito-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FirstCognitoTests/FirstCognitoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		265FC8611974E3AC00FBAEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FirstCognito.app/FirstCognito";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstCognito/FirstCognito-Prefix.pch";
+				INFOPLIST_FILE = "FirstCognitoTests/FirstCognitoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		265FC8221974E3AB00FBAEEA /* Build configuration list for PBXProject "FirstCognito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265FC85A1974E3AC00FBAEEA /* Debug */,
+				265FC85B1974E3AC00FBAEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265FC85C1974E3AC00FBAEEA /* Build configuration list for PBXNativeTarget "FirstCognito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265FC85D1974E3AC00FBAEEA /* Debug */,
+				265FC85E1974E3AC00FBAEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		265FC85F1974E3AC00FBAEEA /* Build configuration list for PBXNativeTarget "FirstCognitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265FC8601974E3AC00FBAEEA /* Debug */,
+				265FC8611974E3AC00FBAEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 265FC81F1974E3AB00FBAEEA /* Project object */;
+}
